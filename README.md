@@ -1,17 +1,22 @@
-# mini_katalog
+# Mini Katalog Uygulaması
 
-A new Flutter project.
+Bu proje, Flutter kullanarak temel seviyede mobil/masaüstü uygulama geliştirme sürecini öğrenmek amacıyla geliştirilmiş  bir katalog uygulama taslağıdır.
 
-## Getting Started
+## 📱 Proje Amacı ve Özellikleri
+- **Ana Sayfa:** Ürünlerin `GridView` ile kart tabanlı modern bir arayüzde listelenmesi.
+- **Detay Sayfası:** `Navigator` ve **Route Arguments** kullanılarak seçilen ürünün verilerinin detay sayfasına aktarılması.
+- **State Yönetimi:** Favorilere ekleme/çıkarma işlemleri için `setState` ve kullanıcıya geri bildirim veren `SnackBar` kullanımı.
+- **Asset / Veri Yönetimi:** Model yapısı (`Product`, `ProductData`) ve harici görsel kaynakları entegrasyonu.
 
-This project is a starting point for a Flutter application.
+## 🛠️ Kullanılan Teknolojiler ve Araçlar
+- Flutter SDK
+- Dart SDK
+- Visual Studio Code
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Çalıştırma Adımları
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Repoyu klonlayın:
+   ```bash
+   git clone [https://github.com/zeynep-aga/mini-katalog.git](https://github.com/zeynep-aga/mini-katalog.git)
